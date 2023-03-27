@@ -109,7 +109,7 @@ async def loginview(bot,msg):
 @LeosBot.on_message(filters.regex("Admin!!"))
 async def adminlogin(bot,msg):
     admin = msg.from_user.id
-    pwass = "leo"
+    pwass = Setup.Admin_Pass # ADMIN Pass!
     await bot.send_message(admin,f"its Admin Panel.... kids stay away")
     passd = await LeosBot.ask(admin,f"Admin Password plase >>>>")
     if passd.text == pwass:

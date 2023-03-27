@@ -12,7 +12,7 @@ Gas Booking System on telegram with Mongo-db
 * `bot_token`(required) - your bot token
 * `admin`(required) - Authorised user id
 * `MONGO_URL`(required) - Mongodb database URI
-
+* `Admin_Pass`(required) - Set Admin Login Password!
 
 ### Run bot
 1. `git clone https://github.com/Roshan-Here/Micro-Project-Prototype`
